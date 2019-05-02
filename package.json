@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "weird-flex-but-ok",
+  "scripts": {
+    "start": "browser-sync start --server public --files public",
+    "deploy": "netlify deploy --prod --dir=public",
+    "setup-deploy": "app-app --deploy && yarn deploy",
+    "postdeploy": "echo 'Your site was deployed to https://weird-flex-but-ok-allamallan.netlify.com'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "stylelint": "^10.0.1",
+    "stylelint-config-standard": "^18.3.0"
+  },
+  "homepage": "https://weird-flex-but-ok-allamallan.netlify.com"
+}
